@@ -105,7 +105,7 @@ public class LatexWriter {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             writeToFile(filePath);
             writer.write(latexContent.toString());
-            System.out.println("File successfully generated to project's directory: " + filePath);
+            System.out.println("File successfully generated to project's directory: \n" + filePath);
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -36,8 +36,8 @@ public class Main {
 
         // Adding things I dislike
         latexWriter.addText("Things I dislike:");
-        latexWriter.addLink("Rusnya1", "https://en.wikipedia.org/wiki/Russia");
-        latexWriter.addLink("Rusnya2", "https://en.wikipedia.org/wiki/Russians");
+        latexWriter.addLink("Youtube", "https://youtube.com");
+        latexWriter.addLink("Google", "https://google.com");
 
         // Saving the generated LaTeX content to a file
         latexWriter.saveToFile("output/thingsILike&Hate.tex");
